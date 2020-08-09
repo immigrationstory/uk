@@ -26,3 +26,4 @@ gh-pages/
 pkg/
 test/dest
 tmp/*
+_assets/
