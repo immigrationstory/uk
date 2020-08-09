@@ -24,6 +24,10 @@ google_analytics_id: #UA-XXXX-Y
 # Front-matter defaults
 defaults:
   - scope:
+      path: ''
+    values:
+      locale: 'en-gb'
+  - scope:
       path: 'en-gb'
     values:
       locale: 'en-gb'

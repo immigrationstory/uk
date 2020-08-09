@@ -28,5 +28,5 @@ I urge you to read through the chapters in sequence, but if you'd like to start 
 {% for post in site.posts reversed %}0. [ {{ post.title }} ]({{ post.url }})
 {% endfor %}0. more updates to come...
 
-{% include_relative _posts/general-disclaimer.md %}
+{% include_relative en-gb/_posts/general-disclaimer.md %}
 
