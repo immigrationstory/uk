@@ -27,6 +27,7 @@ Note that we were one of final few under the old process of issuing full-length 
 On 31 May 2015, the Home Office have rolled-out Biometric Residence Permits (BRPs) for applicants from the Philippines. All non-EEA nationals applying to stay in the UK for more than six months will receive a time-limited 30-day sticker on the passport, instead of a vignette having the full grant of leave (as we have above). They will then have to enter the UK within this 30-day window, and collect their BRP cards within ten days of entering the UK.
 
 ## Full timeline
+![](/assets/tier-2-journey.jpg)
 
 * August 2014
     * August 19: started the job application process
