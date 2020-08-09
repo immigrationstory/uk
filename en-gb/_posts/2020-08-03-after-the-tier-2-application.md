@@ -15,7 +15,7 @@ In this chapter I'll detail:
 ## Getting the results
 We received an email from the Home Office in the afternoon of 25 May 2015 (the same day of our second appointment) that a decision has been made on our application, and that our passports are on the way back to the visa application centre. Given that we were running against the clock, we did not pay the extra fees to have the passports mailed back to us (which would have introduced additional delays of one to two days), rather we told VFS during our appointment that we will be collecting the passports from the application centre.
 
-The passports arrived from the British Embassy in Manila to the visa application centre at around 7:00 pm, where we and a number of other applicants where already waiting. Opening the envelopes, our passports were enclosed which now contained entry clearance vignettes valid for five years:
+The passports arrived from the British Embassy in Manila to the visa application centre at around 7:00 pm, where we and a number of other applicants were already waiting. Opening the envelopes, our passports were enclosed which now contained entry clearance vignettes valid for five years:
 
 * For me
     ![Tier 2 (General) Entry Clearance Vignette, main applicant](/assets/tier-2-entry-clearance-vignette-main-applicant.jpg)
