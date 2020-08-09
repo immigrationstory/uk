@@ -18,6 +18,8 @@ I didn't originally think it was very interesting, however over the years many p
 
 We've decided to write down our experiences in hopes that it will help people who have also or are planning to move to the UK.
 
+![](/assets/heathrow-uk-border.jpg)
+
 Moving to the UK is not a straightforward process. It is difficult and it is important that you understand the rules and prepare accordingly in order to be successful in your application. Countries limit immigration[^opposition-to-immigration] to protect the interests of their own citizens (as they should), and the UK is no exception. This leads to very selective immigration policies which favour people who can demonstratively prove that they can positively contribute to the good of the country.
 
 Preparation is key: we hope that this can arm you with an idea of what the process looks like, and help you plan and be ready for when you undertake it.
