@@ -1,0 +1,37 @@
+# Setup
+title:               ImmigrationStory.uk
+tagline:             'The costs and process of moving to the UK'
+description:         'We’re a married couple from the Philippines who have gone through the process of immigrating and settling in the United Kingdom. Here you will find what our 6-year journey looked like; we hope that what we’re sharing here can guide you in yours.'
+url:                 https://ImmigrationStory.uk
+baseurl:             ''
+permalink:           /:categories/:title
+future:              false
+
+# About/contact
+author:
+  name:              Paolo Rodríguez
+  url:               https://paolorodriguez.com
+  email:             paolo@immigrationstory.uk
+
+# Gems
+plugins:
+  - jekyll-redirect-from
+
+# Custom vars
+version:             0.1.0
+google_analytics_id: #UA-XXXX-Y
+
+# Front-matter defaults
+defaults:
+  - scope:
+      path: 'en-gb'
+    values:
+      locale: 'en-gb'
+  - scope:
+      path: 'tl-ph'
+    values:
+      locale: 'tl-ph'
+
+# Kramdown options
+kramdown:
+  toc_levels: "2"

@@ -1,0 +1,59 @@
+html {
+  line-height: 2;
+}
+
+sub, sup {
+  /* Specified in % so that the sup/sup is the
+     right size relative to the surrounding text */
+  font-size: 75%;
+  /* Zero out the line-height so that it doesn't
+     interfere with the positioning that follows */
+  line-height: 0;
+  /* Where the magic happens: makes all browsers position
+     the sup/sup properly, relative to the surrounding text */
+  position: relative;
+  /* Note that if you're using Eric Meyer's reset.css, this
+     is already set and you can remove this rule */
+  vertical-align: baseline;
+}
+
+sup {
+  /* Move the superscripted text up */
+  top: -0.5em;
+}
+
+sub {
+  /* Move the subscripted text down, but only
+     half as far down as the superscript moved up */
+  bottom: -0.25em;
+}
+
+div.disclaimer, div.disclaimer>h2 {
+  font-size: 0.75rem;
+  text-align: justify;
+}
+
+div.disclaimer {
+  border: 1px solid #eee;
+  margin: 1rem 0;
+  padding: 1rem;
+}
+
+div.footnotes::before {
+  border-top: 1px solid #eee;
+  content: 'Footnotes and citations:';
+  display: block;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+div.footnotes {
+  font-size: 75%;
+  padding: 2rem 0;
+}
+
+img {
+  max-height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
+}

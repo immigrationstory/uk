@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{{ content }}
+{% assign locale_posts = site.categories[page.locale] | reverse %}
+{% for locale_post in locale_posts limit:1 %}
+    {% assign post = locale_post %}
+{% endfor %}
+
+<div class="pagination">
+    <span class="pagination-item older">Home</span>
+    {% if post.url %}
+      <a class="pagination-item newer" href="{{post.url}}">{{post.compact-title | default: post.title}} &raquo;</a>
+    {% else %}
+      <span class="pagination-item newer">End</span>
+    {% endif %}
+    <span style="clear: both; display: block; padding: 1rem;"><a href="table-of-contents">&laquo;&laquo; Table of Contents</a></span>
+  </div>
