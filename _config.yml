@@ -15,8 +15,8 @@ author:
 
 # Gems
 plugins:
-  - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Custom vars
 version:             0.1.0
