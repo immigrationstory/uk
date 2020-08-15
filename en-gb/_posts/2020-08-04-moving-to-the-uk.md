@@ -50,7 +50,7 @@ My spouse had family in the UK already and I stayed with them for a few days whi
 
 On 14 June I moved to an Airbnb rental in Southeast London where I was to stay for a month until 12 July 2015, costing ~£932 at the time. My main priority then was to view properties and secure a suitable place prior to my spouse's arrival on 24 July, during evenings after work and on weekends. I was mostly successful in this endeavour, but the flat we wanted was unavailable for move-in until 18 July.
 
-I've then booked another Airbnb rental (this time in East London, close to the flat will be renting long-term to make moving easy) from 11 July to 18 July, negotiating with the prior Airbnb host to leave one day early (with the appropriate refunds). This was a much nicer Airbnb home which costed us ~£493 at the time.
+I've then booked another Airbnb rental (this time in East London, close to the flat we will be renting long-term to make moving easy) from 11 July to 18 July, negotiating with the prior Airbnb host to leave one day early (with the appropriate refunds). This was a much nicer Airbnb home which costed us ~£493 at the time.
 
 ## SIM cards and data plans
 ![](/assets/sim-card.jpg)
