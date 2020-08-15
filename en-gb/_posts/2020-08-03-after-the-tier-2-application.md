@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tier 2 (General) visa application timeline
-compact-title: Tier 2 Timeline
+compact-title: Tier 2 timeline
 updated: 2020-08-15
 ---
 

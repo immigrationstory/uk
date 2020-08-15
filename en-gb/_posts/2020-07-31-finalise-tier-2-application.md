@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Finalising the Tier 2 (General) visa application
-compact-title: Tier 2 Application
+compact-title: Tier 2 application
 updated: 2020-08-15
 ---
 

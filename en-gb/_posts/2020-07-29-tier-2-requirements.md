@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Requirements for a Tier&nbsp;2 (General)&nbsp;visa
-compact-title: Tier 2 Requirements
+compact-title: Tier 2 requirements
 updated: 2020-08-15
 ---
 
