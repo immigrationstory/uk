@@ -15,7 +15,7 @@ In this chapter I'll detail:
 ## Booking the IELTS English Language Test
 As part of the visa application process, I had to demonstrate my knowledge of the English language, and one way to do this is to pass an approved English Language Test conducted by a test centre that's approved by UKVI. This is important as not all test centres are approved, and an approved test centre can conduct both approved and unapproved tests.
 
-To reiterate: *both* the test centre, and the test you are taking needs to be approved. You can find the list of approved centres and tests in [this official guidance from the UK Government](https://www.gov.uk/government/publications/guidance-on-applying-for-uk-visa-approved-english-language-tests). The names of the unapproved and the approved tests are very similar; you need to pay special attention to what you are booking.
+To reiterate: *both* the test centre and the test you are taking need to be approved. You can find the list of approved centres and tests in [this official guidance from the UK Government](https://www.gov.uk/government/publications/guidance-on-applying-for-uk-visa-approved-english-language-tests). The names of the unapproved and the approved tests are very similar; you need to pay special attention to what you are booking.
 
 For instance, in my case the most convenient centre was IDP Manila (test centre number PH009). The rightmost column ("Exam") lists the approved tests that I can take for this centre.
 
