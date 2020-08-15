@@ -12,7 +12,7 @@ In this chapter I'll detail:
 {% include_relative tier-2-disclaimer.md class='disclaimer' %}
 
 ## Limits as a Tier 2 (General) visa holder
-As our Tier 2 leave[^leave] to remain was granted with the full duration of five years (thus more than six months) there normally are no limits as to how long of a time we can spend outside of the UK, provided I continue to work for the same employer who sponsored us and we do not spend a continuous period of more than two years outside the Common Travel Area[^common-travel-area].
+As our Tier 2 leave to remain[^leave] was granted with the full duration of five years (thus more than six months) there normally are no limits as to how long of a time we can spend outside of the UK, provided I continue to work for the same employer who sponsored us and we do not spend a continuous period of more than two years outside the Common Travel Area[^common-travel-area].
 
 [^leave]: "Leave" here means "permission"; thus "leave to remain" is your "permission to remain" in the UK
 [^common-travel-area]: <https://en.wikipedia.org/w/index.php?title=Common_Travel_Area&oldid=972531233>
