@@ -159,7 +159,7 @@ Applications can be made online at [the UK Government's official application pag
 
 Normally when you switch jobs in the UK, you are given a P45 form by your old employer that you in turn submit to your new employer. This form contains the details of how much tax you've already paid, which allows them to work out how much more to take, given your salary.
 
-As this was my first job in the UK, I had no such form to submit. This led to my employer having no information on my current tax situation and being assigned an emergency tax code[^emergency-tax-code] (which was "0T M1" at the time). Tax codes contain a lot of information ("0T" for instance means that as there was no information about me and they did not know if I had other sources of income, so all my income will be taxed, with no tax-free allowance), all of which allows your employer to know how much income tax they should take from your pay.
+As this was my first job in the UK, I had no such form to submit. This led to my employer having no information on my current tax situation and being assigned an emergency tax code[^emergency-tax-code] (which was "0T M1" at the time). Tax codes contain a lot of information ("0T" for instance means zero tax-free allowance), all of which allows your employer to know how much income tax they should take from your pay.
 
 [^emergency-tax-code]: <https://www.gov.uk/tax-codes/emergency-tax-codes>
 
