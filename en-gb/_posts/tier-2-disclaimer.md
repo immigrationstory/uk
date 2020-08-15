@@ -1,5 +1,5 @@
 {::options parse_block_html="true" /}
-<div class='{{ include.content }}'>
+<div class='{{ include.class }}'>
 Note that the information here is:
 
 * Specific to our unique circumstances

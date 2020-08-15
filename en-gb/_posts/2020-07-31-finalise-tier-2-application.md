@@ -2,7 +2,7 @@
 layout: post
 title: Finalising the Tier 2 (General) visa application
 compact-title: Tier 2 Application
-updated: 2020-08-03
+updated: 2020-08-15
 ---
 
 In this chapter I'll detail:
@@ -10,7 +10,7 @@ In this chapter I'll detail:
 * Table of Contents
 {:toc}
 
-{% include_relative tier-2-disclaimer.md content='disclaimer' %}
+{% include_relative tier-2-disclaimer.md class='disclaimer' %}
 
 ## Final checks
 Once we had completed all of the requirements on our end, we informed PwC that we are ready for the final checks for our application.
@@ -29,4 +29,4 @@ As we now have the final requirement (the certificate of sponsorship) in hand, w
 
 We submitted the visa application on 16 May 2015 and paid for it on the same day. Back in 2015 the cost was £1,128.00 per person; as we were applying from the Philippines we were charged in USD, the final amount at the time was US$‎1,760.00 per person (or US$3,520.00 altogether for me and my spouse). Payments for each applicant are made separately, and not together.
 
-{% include_relative general-disclaimer.md content='disclaimer' %}
+{% include_relative general-disclaimer.md class='disclaimer' %}

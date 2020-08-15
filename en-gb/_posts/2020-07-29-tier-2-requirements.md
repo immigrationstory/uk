@@ -2,7 +2,7 @@
 layout: post
 title: Requirements for a Tier&nbsp;2 (General)&nbsp;visa
 compact-title: Tier 2 Requirements
-updated: 2020-08-08
+updated: 2020-08-15
 ---
 
 In this chapter I'll detail:
@@ -10,7 +10,7 @@ In this chapter I'll detail:
 * Table of Contents
 {:toc}
 
-{% include_relative tier-2-disclaimer.md content='disclaimer' %}
+{% include_relative tier-2-disclaimer.md class='disclaimer' %}
 
 ## Gathering the required documents
 Even prior to us engaging with PwC we've already independently and thoroughly reviewed the requirements for immigrating to the United Kingdom to ensure that we are aware of what is needed and that there are no surprises. All of these can be found and are clearly listed at [this guidance page by the UK Government](https://www.gov.uk/tier-2-general).
@@ -201,4 +201,4 @@ It is very important that you are certain that your sponsor is legitimate and th
 
 Once the application for the certificate of sponsorship is granted by the Home Office, the company then assigned the certificate of sponsorship to me -- this means that they are now formally declaring that they are sponsoring me to come to the UK. An assigned certificate of sponsorship is required to apply for a Tier 2 (General) visa.
 
-{% include_relative general-disclaimer.md content='disclaimer' %}
+{% include_relative general-disclaimer.md class='disclaimer' %}

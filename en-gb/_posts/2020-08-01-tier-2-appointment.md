@@ -2,7 +2,7 @@
 layout: post
 title: The Tier 2 (General) visa appointment
 compact-title: Tier 2 Appointment
-updated: 2020-08-04
+updated: 2020-08-15
 ---
 
 In this chapter I'll detail:
@@ -10,7 +10,7 @@ In this chapter I'll detail:
 * Table of Contents
 {:toc}
 
-{% include_relative tier-2-disclaimer.md content='disclaimer' %}
+{% include_relative tier-2-disclaimer.md class='disclaimer' %}
 
 ## Booking the appointment
 After paying for and submitting the visa application, we selected a date and timeslot for our visa application appointment. The earliest date and time that was convenient for us was on 18 May 2015 at 0710H in the morning -- two days after the application submission.
@@ -33,4 +33,4 @@ This mistake by the centre had real impacts on us, as by then we were already bu
 
 The refund for the original appointment was approved on 28 May 2015 and the money arrived back to my account shortly after.
 
-{% include_relative general-disclaimer.md content='disclaimer' %}
+{% include_relative general-disclaimer.md class='disclaimer' %}

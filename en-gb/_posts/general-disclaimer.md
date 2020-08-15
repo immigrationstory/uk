@@ -1,5 +1,5 @@
 {::options parse_block_html="true" /}
-<div class='{{ include.content }}'>
+<div class='{{ include.class }}'>
 ## A word of warning
 Note that in the UK, only OISC-registered immigration advisers can legally give immigration advice. While I hope that I can give you an idea of what the process entails given the recounting here of my experiences, be mindful that this is specific to my case and may not necessarily apply to you or to anyone else.
 

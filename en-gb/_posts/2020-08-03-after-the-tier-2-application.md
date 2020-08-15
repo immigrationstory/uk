@@ -2,7 +2,7 @@
 layout: post
 title: Tier 2 (General) visa application timeline
 compact-title: Tier 2 Timeline
-updated: 2020-08-08
+updated: 2020-08-15
 ---
 
 In this chapter I'll detail:
@@ -10,7 +10,7 @@ In this chapter I'll detail:
 * Table of Contents
 {:toc}
 
-{% include_relative tier-2-disclaimer.md content='disclaimer' %}
+{% include_relative tier-2-disclaimer.md class='disclaimer' %}
 
 ## Getting the results
 We received an email from the Home Office in the afternoon of 25 May 2015 (the same day of our second appointment) that a decision has been made on our application, and that our passports are on the way back to the visa application centre. Given that we were running against the clock, we did not pay the extra fees to have the passports mailed back to us (which would have introduced additional delays of one to two days), rather we told VFS during our appointment that we will be collecting the passports from the application centre.

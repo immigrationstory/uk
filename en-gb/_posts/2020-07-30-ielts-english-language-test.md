@@ -2,7 +2,7 @@
 layout: post
 title: The IELTS English Language Test
 compact-title: English Language Test
-updated: 2020-08-08
+updated: 2020-08-15
 ---
 
 In this chapter I'll detail:
@@ -10,7 +10,7 @@ In this chapter I'll detail:
 * Table of Contents
 {:toc}
 
-{% include_relative tier-2-disclaimer.md content='disclaimer' %}
+{% include_relative tier-2-disclaimer.md class='disclaimer' %}
 
 ## Booking the IELTS English Language Test
 As part of the visa application process, I had to demonstrate my knowledge of the English language, and one way to do this is to pass an approved English Language Test conducted by a test centre that's approved by UKVI. This is important as not all test centres are approved, and an approved test centre can conduct both approved and unapproved tests.
@@ -111,4 +111,4 @@ The CEFR level corresponding to your Overall Band Score is then shown. This is w
 |         |     A2     | Waystage / elementary                        |
 | Lowest  |     A1     | Breakthrough / beginner                      |
 
-{% include_relative general-disclaimer.md content='disclaimer' %}
+{% include_relative general-disclaimer.md class='disclaimer' %}

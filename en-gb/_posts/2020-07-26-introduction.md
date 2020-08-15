@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Introduction
-updated: 2020-08-01
+updated: 2020-08-14
 ---
 
-Me and my partner started our journey to permanently move to the UK back in 2014. We were originally from the Philippines where I worked as an Oracle solutions architect for consulting companies, while my partner was with a large conglomerate as a corporate lawyer.
+My partner and I started our journey to permanently move to the UK back in 2014. We were originally from the Philippines where I worked as an Oracle solutions architect for consulting companies, while my partner was with a large conglomerate as a corporate lawyer.
 
 The initial route we took was Tier 2 (General) for myself, and Tier 2 (General) Dependant for my partner. We spent five years on this route, and have then applied for and have successfully been granted Indefinite Leave to Remain (which entitles us to permanent residency in the UK). As of the time of writing in 2020 we are working towards applying for naturalisation which will grant us British citizenship.
 
