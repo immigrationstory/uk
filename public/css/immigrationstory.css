@@ -13,6 +13,10 @@ div.disclaimer {
   padding: 1rem;
 }
 
+div.disclaimer>h2 {
+  margin-top: 1rem;
+}
+
 div.footnotes::before {
   border-top: 1px solid #eee;
   content: 'Footnotes and citations:';
