@@ -27,3 +27,7 @@ pkg/
 test/dest
 tmp/*
 _assets/
+
+# Translations
+/hi-in
+/tl-ph

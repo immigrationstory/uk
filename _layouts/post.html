@@ -12,14 +12,50 @@ layout: default
   {{ content }}
 </div>
 
+{% assign translations = site.posts | where: 'slug', page.slug | sort: 'locale' %}
+{% if translations.size > 1 %}
+<p>{{ site.data.translations['different-language'][page.locale] }}:</p>
+<ul>
+  {% for translation in translations %}
+    {% if translation.locale == page.locale %}
+    {% assign class='active' %}
+    {% endif %}
+    <li><a href="{{ site.base-url }}{{ translation.url }}" class="{{ class | default: '' }}">{{ site.data.languages[translation.locale].icon }} {{ site.data.languages[translation.locale].label }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
+
 <div class="pagination">
-  {% if page.previous.url %}
-    <a class="pagination-item older" href="{{page.previous.url}}">&laquo; {{page.previous.compact-title | default: page.previous.title}}</a>
+  {% for post in site.posts %}
+    {% if post.locale == page.locale %}
+      {% if prev %}
+        {% assign previous_post = post %}
+      {% endif %}
+      {% assign prev = false %}
+      {% if post.id == page.id %}
+        {% assign prev = true %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% for post in site.posts reversed %}
+    {% if post.locale == page.locale %}
+      {% if next %}
+        {% assign next_post = post %}
+        {% break %}
+      {% endif %}
+      {% assign next = false %}
+      {% if post.id == page.id %}
+        {% assign next = true %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  {% if previous_post %}
+    <a class="pagination-item older" href="{{previous_post.url}}">&laquo; {{previous_post.compact-title | default: previous_post.title}}</a>
   {% else %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/{{ page.locale }}/">&laquo; Home</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}/{{ page.locale | downcase }}/">&laquo; Home</a>
   {% endif %}
-  {% if page.next.url %}
-    <a class="pagination-item newer" href="{{page.next.url}}">{{page.next.compact-title | default: page.next.title}} &raquo;</a>
+  {% if next_post %}
+    <a class="pagination-item newer" href="{{next_post.url}}">{{next_post.compact-title | default: next_post.title}} &raquo;</a>
   {% else %}
     <span class="pagination-item newer">Last chapter</span>
   {% endif %}

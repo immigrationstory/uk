@@ -3,17 +3,31 @@ layout: default
 ---
 
 {{ content }}
-{% assign locale_posts = site.categories[page.locale] | reverse %}
+{% assign locale_path = page.locale | downcase %}
+{% assign locale_posts = site.categories[locale_path] | reverse %}
 {% for locale_post in locale_posts limit:1 %}
     {% assign post = locale_post %}
 {% endfor %}
 
-<div class="pagination">
-    <span class="pagination-item older">Home</span>
-    {% if post.url %}
-      <a class="pagination-item newer" href="{{post.url}}">{{post.compact-title | default: post.title}} &raquo;</a>
-    {% else %}
-      <span class="pagination-item newer">End</span>
+{% assign translations = site.pages | where: 'name', page.name | where: 'type', 'locale-home' | sort: 'locale' %}
+{% if translations.size > 1 %}
+<p>{{ site.data.translations['different-language'][page.locale] }}:</p>
+<ul>
+  {% for translation in translations %}
+    {% if translation.locale == page.locale %}
+    {% assign class='active' %}
     {% endif %}
-    <span style="clear: both; display: block; padding: 1rem;"><a href="table-of-contents">&laquo;&laquo; Table of Contents</a></span>
-  </div>
+    <li><a href="{{ site.base-url }}{{ translation.url }}" class="{{ class | default: '' }}">{{ site.data.languages[translation.locale].icon }} {{ site.data.languages[translation.locale].label }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+<div class="pagination">
+  <span class="pagination-item older">Home</span>
+  {% if post.url %}
+    <a class="pagination-item newer" href="{{post.url}}">{{post.compact-title | default: post.title}} &raquo;</a>
+  {% else %}
+    <span class="pagination-item newer">End</span>
+  {% endif %}
+  <span style="clear: both; display: block; padding: 1rem;"><a href="table-of-contents">&laquo;&laquo; Table of Contents</a></span>
+</div>

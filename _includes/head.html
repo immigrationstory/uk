@@ -38,6 +38,24 @@
 
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ '/atom.xml' | absolute_url }}">
 
+  {% if page.slug %}
+    {% assign translations = site.posts | where: 'slug', page.slug | sort: 'locale' %}
+    {% if translations.size > 1 %}
+      {% for translation in translations %}
+  <link rel="alternate" hreflang="{{ translation.locale }}" href="{{ translation.url }}" />
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+
+  {% if page.name %}
+    {% assign translations = site.pages | where: 'name', page.name | sort: 'locale' %}
+    {% if translations.size > 1 %}
+      {% for translation in translations %}
+  <link rel="alternate" hreflang="{{ translation.locale }}" href="{{ translation.url }}" />
+      {% endfor %}
+    {% endif %}
+  {% endif %}
+
   {% if site.google_analytics_id %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>

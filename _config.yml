@@ -27,15 +27,19 @@ defaults:
   - scope:
       path: ''
     values:
-      locale: 'en-gb'
+      locale: 'en-GB'
   - scope:
       path: 'en-gb'
     values:
-      locale: 'en-gb'
+      locale: 'en-GB'
+  - scope:
+      path: 'hi-in'
+    values:
+      locale: 'hi-IN'
   - scope:
       path: 'tl-ph'
     values:
-      locale: 'tl-ph'
+      locale: 'tl-PH'
 
 # Kramdown options
 kramdown:

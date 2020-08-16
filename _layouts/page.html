@@ -6,3 +6,16 @@ layout: default
   <h1 class="page-title">{{ page.title }}</h1>
   {{ content }}
 </div>
+
+{% assign translations = site.pages | where: 'name', page.name | sort: 'locale' %}
+{% if translations.size > 1 %}
+<p>{{ site.data.translations['different-language'][page.locale] }}:</p>
+<ul>
+  {% for translation in translations %}
+    {% if translation.locale == page.locale %}
+    {% assign class='active' %}
+    {% endif %}
+    <li><a href="{{ site.base-url }}{{ translation.url }}" class="{{ class | default: '' }}">{{ site.data.languages[translation.locale].icon }} {{ site.data.languages[translation.locale].label }}</a></li>
+  {% endfor %}
+</ul>
+{% endif %}
