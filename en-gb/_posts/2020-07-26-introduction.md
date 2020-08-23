@@ -2,6 +2,7 @@
 layout: post
 title: Introduction
 updated: 2020-08-14
+comments: true
 ---
 
 My partner and I started our journey to permanently move to the UK back in 2014. We were originally from the Philippines where I worked as an Oracle solutions architect for consulting companies, while my partner was with a large conglomerate as a corporate lawyer.

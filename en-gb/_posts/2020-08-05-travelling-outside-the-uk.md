@@ -2,6 +2,7 @@
 layout: post
 title: Travelling outside the UK
 updated: 2020-08-15
+comments: true
 ---
 
 In this chapter I'll detail:

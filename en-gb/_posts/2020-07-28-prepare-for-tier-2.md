@@ -3,6 +3,7 @@ layout: post
 title: Prepare to apply for a Tier&nbsp;2 (General)&nbsp;visa
 compact-title: Prepare for Tier 2
 updated: 2020-08-15
+comments: true
 ---
 
 In this chapter I'll detail:

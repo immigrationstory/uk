@@ -2,6 +2,7 @@
 layout: post
 title: Moving to the UK
 updated: 2020-08-15
+comments: true
 ---
 
 In this chapter I'll detail:

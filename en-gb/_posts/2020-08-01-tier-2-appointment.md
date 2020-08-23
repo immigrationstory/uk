@@ -3,6 +3,7 @@ layout: post
 title: The Tier 2 (General) visa appointment
 compact-title: Tier 2 appointment
 updated: 2020-08-15
+comments: true
 ---
 
 In this chapter I'll detail:
