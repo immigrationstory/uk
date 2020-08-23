@@ -2,6 +2,43 @@ html {
   line-height: 2;
 }
 
+details.report-issue {
+  font-size: 0.75rem;
+}
+
+details.report-issue > summary {
+  color: #ac4142;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+details.report-issue > form {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: max-content 1fr;
+  padding: 1rem;
+}
+
+details.report-issue > form > label {
+  grid-column: 1 / 2;
+}
+
+details.report-issue > form > input, details.report-issue > form > textarea {
+  grid-column: 2 / 3;
+}
+
+details.report-issue > form > input[type=submit] {
+  height: 2rem;
+}
+
+details.report-issue > form > textarea {
+  height: 5rem;
+}
+
 div.disclaimer, div.disclaimer>h2 {
   font-size: 0.75rem;
   text-align: justify;
@@ -28,6 +65,28 @@ div.footnotes::before {
 div.footnotes {
   font-size: 75%;
   padding: 2rem 0;
+}
+
+div.language-options {
+  border-top: 1px solid #eee;
+  font-size: 75%;
+  padding: 2rem 0;
+}
+
+div.language-options .active {
+  font-weight: bold;
+}
+
+div.post {
+  margin-bottom: 0;
+}
+
+div.translation-notice {
+  border: 1px solid #eee;
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem;
 }
 
 h2 {

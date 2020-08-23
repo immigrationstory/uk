@@ -1,4 +1,8 @@
 different-language:
   en-GB: 'This page is also available in other languages'
-  tl-PH: 'Ang pahinang ito ay maaaring basahin sa ibang wika'
   hi-IN: 'यह पृष्ठ अन्य भाषाओं में भी उपलब्ध है'
+  tl-PH: 'Ang pahinang ito ay maaaring basahin sa ibang wika'
+reading-translation:
+  en-GB: 'You are currently reading a translation. View the original page at'
+  hi-IN: 'आप वर्तमान में एक अनुवाद पढ़ रहे हैं। मूल पृष्ठ यहां देखें:'
+  tl-PH: 'Ito ay isang pagsasalin. Tingnan ang orihinal na pahina sa'

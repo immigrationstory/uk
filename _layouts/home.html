@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% assign translations = site.pages | where: 'name', page.name | where: 'type', 'locale-home' | where: 'locale', page.translated-from %}
+{% if page.translated-from and translations.size > 0 %}
+<div class="translation-notice">{{ site.data.translations['reading-translation'][page.locale] }} <a href="{{ site.base-url }}{{ translations[0].url }}" title="{{ site.data.languages[page.translated-from].icon }} {{ site.data.languages[page.translated-from].label }}">{{ translations[0].title }}</a>.</div>
+{% endif %}
 {{ content }}
 {% assign locale_path = page.locale | downcase %}
 {% assign locale_posts = site.categories[locale_path] | reverse %}
@@ -11,15 +15,19 @@ layout: default
 
 {% assign translations = site.pages | where: 'name', page.name | where: 'type', 'locale-home' | sort: 'locale' %}
 {% if translations.size > 1 %}
-<p>{{ site.data.translations['different-language'][page.locale] }}:</p>
-<ul>
-  {% for translation in translations %}
-    {% if translation.locale == page.locale %}
-    {% assign class='active' %}
-    {% endif %}
-    <li><a href="{{ site.base-url }}{{ translation.url }}" class="{{ class | default: '' }}">{{ site.data.languages[translation.locale].icon }} {{ site.data.languages[translation.locale].label }}</a></li>
-  {% endfor %}
-</ul>
+<div class="language-options">
+  <p>{{ site.data.translations['different-language'][page.locale] }}:</p>
+  <ul>
+    {% for translation in translations %}
+      {% if translation.locale == page.locale %}
+        {% assign class='active' %}
+      {% else %}
+        {% assign class='' %}
+      {% endif %}
+      <li><a href="{{ site.base-url }}{{ translation.url }}" class="{{ class | default: '' }}">{{ site.data.languages[translation.locale].icon }} {{ site.data.languages[translation.locale].label }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 {% endif %}
 
 <div class="pagination">
