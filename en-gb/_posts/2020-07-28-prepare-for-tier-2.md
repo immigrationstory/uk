@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prepare to apply for a Tier&nbsp;2 (General)&nbsp;visa
+title: Prepare to apply for a Tier 2 (General) visa
 compact-title: Prepare for Tier 2
 updated: 2020-08-15
 comments: true

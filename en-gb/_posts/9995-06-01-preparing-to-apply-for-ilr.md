@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preparing to apply for Indefinite&nbsp;Leave&nbsp;to&nbsp;Remain&nbsp;(ILR)
+title: Preparing to apply for Indefinite Leave to Remain (ILR)
 compact-title: Prepare for ILR
 ---
 

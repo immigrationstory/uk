@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ILR application&nbsp;and&nbsp;results timeline
+title: ILR application and results timeline
 compact-title: ILR Results
 ---
 
