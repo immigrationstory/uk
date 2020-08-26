@@ -93,13 +93,6 @@ div.language-options .active {
 
 /* Issue reporting */
 
-div.report-issue {
-  border-top: 1px solid #eee;
-  font-size: 0.75rem;
-  margin: 3rem 0 2rem;
-  padding: 1rem 0;
-}
-
 div.report-issue > details > summary {
   color: #ac4142;
   -webkit-touch-callout: none;
