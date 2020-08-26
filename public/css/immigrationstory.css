@@ -93,6 +93,10 @@ div.language-options .active {
 
 /* Issue reporting */
 
+div.report-issue {
+  margin: 3rem 0 2rem;
+}
+
 div.report-issue > details > summary {
   color: #ac4142;
   -webkit-touch-callout: none;
