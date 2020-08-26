@@ -1,13 +1,15 @@
-<details class="report-issue">
-    <summary>Report a problem with this page</summary>
-    <form accept-charset="utf-8" autocomplete="on" action="https://form-a161.immigrationstory.uk/submit" enctype="application/x-www-form-urlencoded" method="POST">
-        <label for="name">Your name:</label>
-        <input type="text" id="name" autocomplete="name" name="name" required />
-        <label for="email">Your email:</label>
-        <input type="text" id="email" autocomplete="email" name="email" required />
-        <label for="message">Message:</label>
-        <textarea autocomplete="off" id="message" name="message" required spellcheck="true"></textarea>
-        <input type="hidden" value="{{ page.url | absolute_url }}" name="return-to" />
-        <input type="submit" value="Send" />
-    </form>
-</details>
+<div class="report-issue">
+    <details>
+        <summary>Report a problem with this page</summary>
+        <form accept-charset="utf-8" autocomplete="on" action="https://form-a161.immigrationstory.uk/submit" enctype="application/x-www-form-urlencoded" method="POST">
+            <label for="name">Your name:</label>
+            <input type="text" id="name" autocomplete="name" name="name" required />
+            <label for="email">Your email:</label>
+            <input type="text" id="email" autocomplete="email" name="email" required />
+            <label for="message">Message:</label>
+            <textarea autocomplete="off" id="message" name="message" required spellcheck="true"></textarea>
+            <input type="hidden" value="{{ page.url | absolute_url }}" name="return-to" />
+            <input type="submit" value="Send" />
+        </form>
+    </details>
+</div>

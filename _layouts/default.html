@@ -22,6 +22,13 @@
       <div class="container content">
         {{ content }}
       </div>
+
+      <div class="footer">
+        <div class="container">
+          <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+          <p><a href="{% link privacy-policy.md %}">Privacy Policy</a></p>
+        </div>
+      </div>
     </div>
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>

@@ -1,43 +1,39 @@
+/* Overrides */
+
 html {
   line-height: 2;
 }
 
-details.report-issue {
-  font-size: 0.75rem;
+div.post {
+  margin-bottom: 0;
 }
 
-details.report-issue > summary {
-  color: #ac4142;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+h2 {
+  margin-top: 2rem;
 }
 
-details.report-issue > form {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: max-content 1fr;
-  padding: 1rem;
+img {
+  max-height: 90vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-details.report-issue > form > label {
-  grid-column: 1 / 2;
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
 }
 
-details.report-issue > form > input, details.report-issue > form > textarea {
-  grid-column: 2 / 3;
+sup {
+  top: -0.5em;
 }
 
-details.report-issue > form > input[type=submit] {
-  height: 2rem;
+sub {
+  bottom: -0.25em;
 }
 
-details.report-issue > form > textarea {
-  height: 5rem;
-}
+/* Disclaimer boxes */
 
 div.disclaimer, div.disclaimer>h2 {
   font-size: 0.75rem;
@@ -54,32 +50,34 @@ div.disclaimer>h2 {
   margin-top: 1rem;
 }
 
+/* Footnotes */
+
 div.footnotes::before {
-  border-top: 1px solid #eee;
   content: 'Footnotes and citations:';
   display: block;
-  margin-bottom: 1rem;
-  padding-top: 1rem;
 }
 
 div.footnotes {
+  border-top: 1px solid #eee;
   font-size: 75%;
-  padding: 2rem 0;
+  margin: 3rem 0 2rem;
+  padding: 1rem 0;
 }
+
+div.footnotes ol, div.footnotes p {
+  margin: 0;
+}
+
+/* Language selector */
 
 div.language-options {
   border-top: 1px solid #eee;
   font-size: 75%;
-  padding: 2rem 0;
+  margin: 3rem 0 2rem;
+  padding: 1rem 0;
 }
 
-div.language-options .active {
-  font-weight: bold;
-}
-
-div.post {
-  margin-bottom: 0;
-}
+/* Translation warning */
 
 div.translation-notice {
   border: 1px solid #eee;
@@ -89,15 +87,53 @@ div.translation-notice {
   padding: 1rem;
 }
 
-h2 {
-  margin-top: 2rem;
+div.language-options .active {
+  font-weight: bold;
 }
 
-img {
-  max-height: 90vh;
-  margin-left: auto;
-  margin-right: auto;
+/* Issue reporting */
+
+div.report-issue {
+  border-top: 1px solid #eee;
+  font-size: 0.75rem;
+  margin: 3rem 0 2rem;
+  padding: 1rem 0;
 }
+
+div.report-issue > details > summary {
+  color: #ac4142;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+div.report-issue > details > form {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: max-content 1fr;
+  padding: 1rem;
+}
+
+div.report-issue > details > form > label {
+  grid-column: 1 / 2;
+}
+
+div.report-issue > details > form > input, div.report-issue > details > form > textarea {
+  grid-column: 2 / 3;
+}
+
+div.report-issue > details > form > input[type=submit] {
+  height: 2rem;
+}
+
+div.report-issue > details > form > textarea {
+  height: 5rem;
+}
+
+/* Tip boxes */
 
 .tip::before {
   content: 'Tip: ';
@@ -111,20 +147,19 @@ img {
   padding: 1rem;
 }
 
-sub, sup {
+/* Footer */
+
+.footer {
+  border-top: 1px solid #eee;
+  margin-top: 10rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.footer p {
+  color: #c0c0c0;
   font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  /* Move the superscripted text up */
-  top: -0.5em;
-}
-
-sub {
-  /* Move the subscripted text down, but only
-     half as far down as the superscript moved up */
-  bottom: -0.25em;
+  font-weight: 400;
+  letter-spacing: 0;
+  margin: 0 0 0.25rem 0;
 }
