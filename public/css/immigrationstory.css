@@ -162,3 +162,9 @@ div.report-issue > details > form > textarea {
   letter-spacing: 0;
   margin: 0 0 0.25rem 0;
 }
+
+/* Commento overrides */
+
+.commento-markdown-help pre {
+  display: inline-block !important;
+}
