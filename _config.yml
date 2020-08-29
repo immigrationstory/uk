@@ -3,6 +3,7 @@ title:               ImmigrationStory.uk
 tagline:             'The costs and process of moving to the UK'
 description:         'We’re a married couple from the Philippines who have gone through the process of immigrating and settling in the United Kingdom. Here you will find what our 6-year journey looked like; we hope that what we’re sharing here can guide you in yours.'
 url:                 https://ImmigrationStory.uk
+downloadbaseurl:     https://download-0553.immigrationstory.uk/request
 baseurl:             ''
 permalink:           /:categories/:title
 future:              false

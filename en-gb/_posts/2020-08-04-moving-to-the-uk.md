@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Moving to the UK
-updated: 2020-08-15
+updated: 2020-08-29
 comments: true
 ---
 
@@ -86,6 +86,10 @@ Additionally:
 * the letter must be dated within the last month
 * there must be a contact name and telephone number included from whoever has signed the letter
 * the signature must be original, not scanned
+
+I'm sharing the template I've originally used; [download the letter of introduction for opening a bank account here]({{ site.downloadbaseurl }}?file-id=e9a3a254f05c59e0f76edf5d7dfed8b8&return-to={{ page.url | absolute_url | url_encode }}){:target="_blank"}. This has placeholders for all the information noted above, and guidance on how to fill-out and print the document. Edit it accordingly, print it on official company letterheaded paper, and have it signed by your HR representative.
+
+[![](/assets/letter-of-introduction-for-opening-a-bank-account.jpg)]({{ site.downloadbaseurl }}?file-id=e9a3a254f05c59e0f76edf5d7dfed8b8&return-to={{ page.url | absolute_url | url_encode }}){:target="_blank"}
 
 Given this I was able to open a bank account (and a credit card) and relay the bank account details to my employer for purposes of payroll. In the UK, this consists of two numbers:
 
