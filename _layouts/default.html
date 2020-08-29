@@ -13,7 +13,7 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/{{ page.locale | downcase }}/" title="Home">{{ site.title }}</a>
+            <a href="{{ page.locale | downcase | relative_url }}/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
           </h3>
         </div>
@@ -33,6 +33,6 @@
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <script src='{{ site.baseurl }}/public/js/script.js'></script>
+    <script src='{{ "/public/js/script.js" | relative_url }}'></script>
   </body>
 </html>

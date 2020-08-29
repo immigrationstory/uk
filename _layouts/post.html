@@ -11,7 +11,7 @@ layout: default
   {% endif %}
   {% assign translations = site.posts | where: 'slug', page.slug | where: 'locale', page.translated-from %}
   {% if page.translated-from and translations.size > 0 %}
-    <div class="translation-notice">{{ site.data.translations['reading-translation'][page.locale] }} <a href="{{ site.base-url }}{{ translations[0].url }}" title="{{ site.data.languages[page.translated-from].icon }} {{ site.data.languages[page.translated-from].label }}">{{ translations[0].title }}</a>.</div>
+    <div class="translation-notice">{{ site.data.translations['reading-translation'][page.locale] }} <a href="{{ translations[0].url | relative_url }}" title="{{ site.data.languages[page.translated-from].icon }} {{ site.data.languages[page.translated-from].label }}">{{ translations[0].title }}</a>.</div>
   {% endif %}
   {{ content }}
 </div>
@@ -29,7 +29,7 @@ layout: default
       {% else %}
         {% assign class='' %}
       {% endif %}
-      <li><a href="{{ site.base-url }}{{ translation.url }}" class="{{ class | default: '' }}">{{ site.data.languages[translation.locale].icon }} {{ site.data.languages[translation.locale].label }}</a></li>
+      <li><a href="{{ translation.url | relative_url }}" class="{{ class | default: '' }}">{{ site.data.languages[translation.locale].icon }} {{ site.data.languages[translation.locale].label }}</a></li>
     {% endfor %}
   </ul>
 </div>
@@ -62,7 +62,7 @@ layout: default
   {% if previous_post %}
     <a class="pagination-item older" href="{{previous_post.url}}">&laquo; {{previous_post.compact-title | default: previous_post.title}}</a>
   {% else %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/{{ page.locale | downcase }}/">&laquo; Home</a>
+    <a class="pagination-item older" href="{{ page.locale | downcase | relative_url }}/">&laquo; Home</a>
   {% endif %}
   {% if next_post %}
     <a class="pagination-item newer" href="{{next_post.url}}">{{next_post.compact-title | default: next_post.title}} &raquo;</a>
