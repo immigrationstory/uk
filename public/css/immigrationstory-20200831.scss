@@ -1,0 +1,19 @@
+---
+---
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+// Set your brand colors
+$unionJackRed: #C8102E;
+
+// Update Bulma's global variables
+$family-sans-serif: "Roboto Condensed", sans-serif;
+$primary: $unionJackRed;
+$link: $unionJackRed;
+
+// Import only what you need from Bulma
+@import "bulma-0.9.0/sass/utilities/_all.sass";
+@import "bulma-0.9.0/sass/form/_all.sass";
+@import "bulma-0.9.0/sass/elements/_all.sass";

@@ -45,3 +45,8 @@ defaults:
 # Kramdown options
 kramdown:
   toc_levels: "2"
+
+# SASS options
+sass:
+  sass_dir: _sass
+  sourcemap: development
