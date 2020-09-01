@@ -62,7 +62,7 @@ If a person then started on a Tier 2 (General) visa and stayed there for four ye
     <div class="control">
       <input class="input" type="date" name="physical-entry-date" required>
     </div>
-    <p class="help">This is important because if you entered the UK late by 180 days or more, then the start of your qualifying period will be your physical entry date, and not the start date of your original visa. If you were already in the UK (for example, because you switched to this visa from a different, unrelated visa) then choose the same date.</p>
+    <p class="help">This is important because if you entered the UK late by more than 180 days, then the start of your qualifying period will be your physical entry date, and not the start date of your original visa. If you were already in the UK (for example, because you switched to this visa from a different, unrelated visa) then choose the same date.</p>
   </div>
   <div class="field">
     <label class="label">When is the expiry date of your <em>current</em> visa?</label>
