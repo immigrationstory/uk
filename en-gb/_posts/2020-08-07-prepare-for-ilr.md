@@ -47,6 +47,26 @@ To assist you with this I've made an [ILR Calculator tool to calculate when the 
 After entering your details, the calculator will inform you when is the earliest date that you can apply for an ILR. Note however that other factors can influence this date, for instance, if you have at any time left the UK for more than 180 full days in any 12-month period. Ensure you are familiar with the full rules for your ILR route; do not use this calculator as the sole basis for making your decision on when to apply!
 {: .tip }
 
+In our case, my and my spouse's original Tier 2 visa was issued on 25/05/2015.
+
+I've entered the UK on 11/06/2015, which is 17 days after my visa was issued. As it does not exceed 180 days, these 17 days are counted as an allowable absence, meaning my ILR clock can still start on 11/06/2015. If I hypothetically entered the UK more than 180 days after my visa was issued, then the clock will instead start on when I physically entered the country.
+
+This start date is the "qualifying period start date" for my ILR application.
+
+Much like other routes, the Tier 2 (General) ILR route requires a qualifying period of 5 years:
+
+* Year 1 **starts on 25/05/2015**, and ends on 24/05/2016
+* Year 2 starts on 25/05/2016, and ends on 24/05/2017
+* Year 3 starts on 25/05/2017, and ends on 24/05/2018
+* Year 4 starts on 25/05/2018, and ends on 24/05/2019
+* Year 5 starts on 25/05/2019, and **ends on 24/05/2020**
+
+My 5-year qualifying period then is from 25/05/2015 to 24/05/2020.
+
+As per the [rules](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/891368/calculating-continuous-leave-v21.0-gov-uk.pdf) one can apply for ILR up to 28 days before the qualifying period end date. Counting backwards 28 days from 24/05/2020 gives us 26/04/2020, which is the earliest date I can apply for an ILR.
+
+My spouse entered the UK slightly later than me on 24/07/2015, which is 60 days after our visa was issued. This does not exceed 180 days, thus their qualifying period start date is the same as mine. This is good as it means that we will be able to apply for the ILR together.
+
 ## Preparations needed
 Unlike the Tier 2 (General) visa application which requires submission of an extensive list of documents that can be gathered in a short amount of time, we found the ILR application to be very different in that while the requirements are more straightforward, they needed to be continually worked on in the five years leading up to the date.
 
