@@ -4,4 +4,4 @@ title: ILR application and results timeline
 compact-title: ILR Results
 ---
 
-Under construction
+This chapter is still under construction and has not been published yet.
