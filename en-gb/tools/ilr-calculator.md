@@ -107,17 +107,17 @@ If a person then started on a Tier 2 (General) visa and stayed there for four ye
     if (delayedEntry > 180) {
       qualifyingPeriodStartDate = physicalEntryDate;
       observation = document.createElement("li");
-      observation.appendChild(document.createTextNode("Your physical entry date into the UK is " + delayedEntry + " days (which is more than 180 days) after your leave was granted; thus the start date of your qualifying period for this ILR application is " + qualifyingPeriodStartDate.toLocaleDateString() + "."));
+      observation.appendChild(document.createTextNode("Your physical entry date into the UK is " + delayedEntry + " days (which is more than 180 days) after your leave was granted; thus the start date of your qualifying period for this ILR application is " + qualifyingPeriodStartDate.toLocaleDateString() + " which was when you entered the UK."));
       observations.appendChild(observation);
     } else if (delayedEntry < 0) {
       qualifyingPeriodStartDate = firstVisaStartDate;
       observation = document.createElement("li");
-      observation.appendChild(document.createTextNode("Your physical entry date into the UK is earlier than the start date of your relevant grant of leave for this ILR application. We assume this is because you were already in the UK before, but on a different and unrelated visa."));
+      observation.appendChild(document.createTextNode("Your physical entry date into the UK is earlier than the start date of your relevant grant of leave for this ILR application. We assume this is because you were already in the UK before, but on a different and unrelated visa. Your qualifying period start date is thus " + qualifyingPeriodStartDate.toLocaleDateString() + " which was when your visa was granted."));
       observations.appendChild(observation);
     } else if (delayedEntry == 0) {
       qualifyingPeriodStartDate = firstVisaStartDate;
       observation = document.createElement("li");
-      observation.appendChild(document.createTextNode("Your qualifying period start date is " + qualifyingPeriodStartDate.toLocaleDateString() + "."));
+      observation.appendChild(document.createTextNode("Your qualifying period start date is " + qualifyingPeriodStartDate.toLocaleDateString() + " which was when your visa was granted, the same date as when you physically entered the UK."));
       observations.appendChild(observation);
       observation = document.createElement("li");
     } else {
@@ -125,14 +125,14 @@ If a person then started on a Tier 2 (General) visa and stayed there for four ye
       var nextYear = new Date(qualifyingPeriodStartDate.getFullYear() + 1, qualifyingPeriodStartDate.getMonth(), qualifyingPeriodStartDate.getDate() - 1);
       var remainingAllowance = 180 - delayedEntry;
       observation = document.createElement("li");
-      observation.appendChild(document.createTextNode("You have entered the UK " + delayedEntry + " " + (delayedEntry == 1 ? "day" : "days") + " after the start date of your visa. As this is still within the 180-day allowance, it will be counted as an allowable absence and your qualifying period start date is " + qualifyingPeriodStartDate.toLocaleDateString() + "."));
+      observation.appendChild(document.createTextNode("You have entered the UK " + delayedEntry + " " + (delayedEntry == 1 ? "day" : "days") + " after the start date of your visa. As this is still within the 180-day allowance, it will be counted as an allowable absence and your qualifying period start date is " + qualifyingPeriodStartDate.toLocaleDateString() + " which was when your visa was granted."));
       observations.appendChild(observation);
       observation = document.createElement("li");
       if (remainingAllowance == 0) {
-        observation.appendChild(document.createTextNode("You must ensure that you have not been outside the UK at all from " + qualifyingPeriodStartDate.toLocaleDateString() + " to " + nextYear.toLocaleDateString() + " as it will bring you above the 180-day limit of allowed absences in any 12-month period."));
+        observation.appendChild(document.createTextNode("You must ensure that you have not spent any full days outside the UK at all from " + physicalEntryDate.toLocaleDateString() + " to " + nextYear.toLocaleDateString() + " as it will bring you above the 180-day limit of allowed absences in any 12-month period."));
         observations.appendChild(observation);
       } else {
-        observation.appendChild(document.createTextNode("You must ensure that you have not been outside the UK for more than " + remainingAllowance + " " + (remainingAllowance == 1 ? "day" : "days") + " from " + qualifyingPeriodStartDate.toLocaleDateString() + " to " + nextYear.toLocaleDateString() + " as it will bring you above the 180-day limit of allowed absences in any 12-month period."));
+        observation.appendChild(document.createTextNode("You must ensure that you have not been outside the UK for more than " + remainingAllowance + " full " + (remainingAllowance == 1 ? "day" : "days") + " from " + physicalEntryDate.toLocaleDateString() + " to " + nextYear.toLocaleDateString() + " as it will bring you above the 180-day limit of allowed absences in any 12-month period."));
         observations.appendChild(observation);
       }
     }
@@ -144,7 +144,7 @@ If a person then started on a Tier 2 (General) visa and stayed there for four ye
 
     var earliestIlrApplicationDate = new Date(qualifyingPeriodEndDate.getFullYear(), qualifyingPeriodEndDate.getMonth(), qualifyingPeriodEndDate.getDate() - 28);
     observation = document.createElement("li");
-    observation.appendChild(document.createTextNode("Your earliest ILR application date is on " + earliestIlrApplicationDate.toLocaleDateString() + ". Do not submit an application before this date as otherwise your application will be rejected and no refund will be given."));
+    observation.appendChild(document.createTextNode("Your earliest ILR application date is on " + earliestIlrApplicationDate.toLocaleDateString() + ". Do not submit an application before this date as otherwise your application will be rejected and no refund will be given. If you spend or have spent more than 180 full days in any 12-month period between " + qualifyingPeriodStartDate.toLocaleDateString() + " and " + earliestIlrApplicationDate.toLocaleDateString() + " then your ILR clock will reset and your earliest ILR application date will change. If this is the case then do not use the date above as it is invalid; you must work out the dates given your circumstances or consult with an immigration adviser."));
     observations.appendChild(observation);
 
     if (earliestIlrApplicationDate > currentVisaEndDate) {
