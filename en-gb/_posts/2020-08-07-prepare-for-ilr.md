@@ -40,7 +40,7 @@ The ILR can be taken away in a number of scenarios:[^can-my-indefinite-leave-to-
 ## When to apply
 ![](/assets/ilr-application-timing.jpg)
 
-The ILR application process has very strict timelines that you need to comply with. Applying too early will cause your application to fail, any any fees already paid will not be refunded. Given that these fees can be very substantial (especially if applying as a couple), it is in your best interests to ensure that you are aware of and follow these rules.
+The ILR application process has very strict timelines that you need to comply with. Applying too early will cause your application to fail, and any fees already paid will not be refunded. Given that these fees can be very substantial (especially if applying as a couple), it is in your best interests to ensure that you are aware of and follow these rules.
 
 To assist you with this I've made an [ILR Calculator tool to calculate when the earliest date is that you can apply]({% link en-gb/tools/ilr-calculator.md %}) available.
 
