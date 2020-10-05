@@ -42,7 +42,7 @@ The ILR can be taken away in a number of scenarios:[^can-my-indefinite-leave-to-
 
 The ILR application process has very strict timelines that you need to comply with. Applying too early will cause your application to fail, and any fees already paid will not be refunded. Given that these fees can be very substantial (especially if applying as a couple), it is in your best interests to ensure that you are aware of and follow these rules.
 
-To assist you with this I've made an [ILR Calculator tool to calculate when the earliest date is that you can apply]({% link en-gb/tools/ilr-calculator.md %}) available.
+To assist you with this I've made available an [ILR Calculator tool to find when the earliest date is that you can apply]({% link en-gb/tools/ilr-calculator.md %}).
 
 After entering your details, the calculator will inform you when is the earliest date that you can apply for an ILR. Note however that other factors can influence this date, for instance, if you have at any time left the UK for more than 180 full days in any 12-month period. Ensure you are familiar with the full rules for your ILR route; do not use this calculator as the sole basis for making your decision on when to apply!
 {: .tip }
