@@ -70,12 +70,12 @@ My spouse entered the UK slightly later than me on 24/07/2015, which is 60 days 
 ## Preparations needed
 Unlike the Tier 2 (General) visa application which requires submission of an extensive list of documents that can be gathered in a short amount of time, we found the ILR application to be very different in that while the requirements are more straightforward, they needed to be continually worked on in the five years leading up to the date.
 
-The company I was working for at the time also only provides financial sponsorship for Tier 2 applications, and not for ILRs, so this was a cost that we needed to shoulder ourselves. During our Tier 2 application, the company originally procured services of a firm to help us with the immigration process, however this is not something that is an option for ILR applications. We either had to acquire and pay for the services of an immigration solicitor ourselves, or do our own research and undertake the process without any paid external support.
+The company I was with at the time also only provides financial sponsorship for Tier 2 applications, and not for ILRs, so this was a cost that we needed to shoulder ourselves. During our Tier 2 application, the company originally procured services of a firm to help us with the immigration process, however this is not something that is an option for ILR applications. We either had to acquire and pay for the services of an immigration solicitor ourselves, or do our own research and undertake the process without any paid external support.
 
 From the beginning we had a very clear vision that we wanted to make the UK our home, thus shortly after we have received our Tier 2 (General) visa, we immediately started familiarising ourselves with the documentary and financial [requirements for applying for an ILR](https://www.gov.uk/settle-in-the-uk).
 
 Given this, and the fact that we felt our application was straightforward, we were confident that we can do this without the paid support of an external firm.
 
-It is absolutely critical you give yourself sufficient time to prepare for your application given the tight window you are given, the substantial costs involved, and the significant impact this will have to your life.
+Applying for and being granted a UK ILR is a significant milestone in your and your family's immigration journey. It is absolutely critical you allow yourself sufficient time to prepare for your application seeing its importance, the tight window of opportunity you are provided, and the substantial costs involved.
 
 {% include_relative general-disclaimer.md class='disclaimer' %}
