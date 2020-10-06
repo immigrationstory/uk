@@ -79,6 +79,8 @@ For those applying for ILR via the Tier 2 (General) route, the requirements betw
 
 0. **List of absences from the UK in the past 5 years (or whatever the qualifying period is for the route you are applying for)**
 
+    ![List of Absences from the UK](/assets/list-of-uk-absences.jpg)
+
     In order to prove that they meet the residency requirement of the ILR, each applicant will need to submit records of their full travel history for the entire qualifying period (e.g. 5 years) they are applying for. For each trip, you must indicate:
 
     * The country visited
