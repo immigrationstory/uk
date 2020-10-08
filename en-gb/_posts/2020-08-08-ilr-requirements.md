@@ -53,7 +53,7 @@ For those applying for ILR via the Tier 2 (General) route, the requirements betw
 
     ![IELTS Test Report Form](/assets/ielts-certificate.jpg)
 
-    In accordance with the [rules on proving my knowledge of English for settlement](https://www.gov.uk/english-language/approved-english-language-qualifications), I am able to reuse my existing IELTS test despite it being older that 2 years because:
+    In accordance with the [rules on proving my knowledge of English for settlement](https://www.gov.uk/english-language/approved-english-language-qualifications), I am able to reuse my existing IELTS test despite it being older than 2 years because:
 
     0. the test was [submitted and accepted as part of my original Tier 2 (General) application]({% post_url en-gb/2020-07-29-tier-2-requirements %})
     0. the [qualification is CEFR B1 level or higher]({% post_url en-gb/2020-07-30-ielts-english-language-test %}#results)
@@ -72,6 +72,8 @@ For those applying for ILR via the Tier 2 (General) route, the requirements betw
     ![Life in the UK Test Result](/assets/life-in-the-uk-test-result.jpg)
 
     There is a separate chapter dedicated to [preparing for the Life in the UK Test]({% post_url en-gb/2020-08-09-life-in-the-uk-test %}) which details what you need to do, what the process entails, and what the costs are.
+
+    As of the time of writing in 2020, once you pass the Life in the UK test, this status remains valid indefinitely and does not expire. Given the restrictions in when you can retake the test in case you fail it, it is in your best interests to do the test as early as possible.
 
     This is a requirement that nearly all applicants will need to fulfil, with a few [exceptions](https://www.gov.uk/life-in-the-uk-test).
 
