@@ -65,6 +65,8 @@ For those applying for ILR via the Tier 2 (General) route, the requirements betw
 
     Proof of knowledge in the English language can also be evidenced by having a degree taught in English. Because they have studied for and have been awarded a Master's Degree in Law by Queen Mary University of London, to fulfil this requirement my spouse only needed to submit their [UK degree certificate as evidence](https://www.gov.uk/english-language/degrees-in-english).
 
+    Refer to the [chapter on the IELTS English Language test]({% post_url en-gb/2020-07-30-ielts-english-language-test %}) if you find that any of your family members need to take it in order to prove their knowledge of the English language.
+
     In addition to submitting the scans online, you will need to bring all these with you on your appointment.
 
 0. **Evidence of passing the Life in the UK test**
