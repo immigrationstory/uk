@@ -15,6 +15,8 @@ In addition to showing the steps we've taken (and their outcomes), we'll also sh
 0. Breakdowns of fees and costs that we've paid
 0. Links to relevant laws and other official guidance
 
+![](/assets/helping-hand.jpg)
+
 All the chapters are listed below detailing what we've gone through since 2014 (which was when we started planning to immigrate to the UK) up to the present day in 2020 (as of the time of writing) which is when we have received our permanent residency, otherwise known as the ILR.
 
 I urge you to read through the chapters in sequence, but if you'd like to start somewhere in the middle, feel free to jump straight to a topic of interest -- just know that you may need to go back to refer to prior chapters where I detail all the preparation that has been done to get to that point.
