@@ -6,7 +6,7 @@ comments: true
 categories: tools
 ---
 
-Use this tool to calculate when the earliest date is you can apply for an Indefinite Leave to Remain. 
+Use this tool to calculate when the earliest date is you can apply for Indefinite Leave to Remain. 
 
 * Table of Contents
 {:toc}
@@ -25,7 +25,7 @@ period is not 5 years" in the official UK Government guidance for [Indefinite le
 This tool assumes:
 
 * Your application is straightforward; for instance:
-  * You have not been away from the UK for 180 full days in any 12-month period
+  * You have not been away from the UK for more than 180 full days in any 12-month period
   * You are not applying for other routes such as the 10-year Private Life or Long Residence route
   * You are not applying for asylum
 * If you have multiple grants of leave in the continuous period you'd like to be considered for your application, that all of those grants of leave are "compatible" with the ILR route you are applying for and does not reset the clock for your ILR application
