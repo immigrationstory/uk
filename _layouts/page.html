@@ -27,3 +27,9 @@ layout: default
   </ul>
 </div>
 {% endif %}
+
+{% if page.comments %}
+<script defer src="https://commento-b48b.immigrationstory.uk/js/commento.js" data-page-id="{{ page.url }}"></script>
+<div id="commento"></div>
+<noscript>Please enable JavaScript to view the comments.</noscript>
+{% endif %}
