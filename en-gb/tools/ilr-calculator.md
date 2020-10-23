@@ -2,6 +2,7 @@
 layout: page
 title: ILR Calculator
 theme: /public/css/immigrationstory-20200831.css
+comments: true
 ---
 
 Use this tool to calculate when the earliest date is you can apply for an ILR.
@@ -157,5 +158,10 @@ If a person then started on a Tier 2 (General) visa and stayed there for four ye
   });
 
 </script>
+
+## Further Reading
+There are dedicated chapters on [preparing for your ILR application]({% post_url en-gb/2020-08-07-prepare-for-ilr %}) as well as the [ILR requirements]({% post_url en-gb/2020-08-08-ilr-requirements %}).
+
+Alternatively, a list of all chapters can be found at the [table of contents]({% link en-gb/table-of-contents.md %}) where you'll find detailed guides on not just applying for Indefinite Leave to Remain, but also other topics such as the process for Tier 2 (General), moving to the UK, living in the UK, and others.
 
 {% include report-issue.html %}
