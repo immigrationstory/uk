@@ -6,7 +6,7 @@ comments: true
 categories: tools
 ---
 
-Use this tool to calculate when the earliest date is you can apply for Indefinite Leave to Remain. 
+Use this tool to calculate when is the earliest date you can apply for Indefinite Leave to Remain. 
 
 * Table of Contents
 {:toc}
