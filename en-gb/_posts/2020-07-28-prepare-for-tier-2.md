@@ -39,7 +39,7 @@ It is very important that you know what route you are applying under, and you fu
 ## Starting the application process
 ![](/assets/visa-application.jpg)
 
-A few days after I've formally accepted the job offer in February 2015, I was informed by the company that they will now be kicking-off the visa process for me and partner.
+A few days after I've formally accepted the job offer in February 2015, I was informed by the company that they will now be kicking-off the visa process for me and my partner.
 
 As part of the support that came with the job offer, the company sponsoring us to come to the UK have procured the services of a firm to help us with the legal process of immigration. In our case, this service was provided by PricewaterhouseCoopers (PwC), who had a team of legal professionals knowledgeable in both the Philippine and the UK systems and laws. They reached out to us and guided us through the entire process of getting the right documents to fulfil requirements as well as filling the right forms correctly. They were also available for any questions that we may have had regarding our circumstances.
 
