@@ -169,7 +169,7 @@ If a person then started on a Tier 2 (General) visa and stayed there for four ye
 
 </script>
 
-## Further Reading
+## Further reading
 ![](/assets/ilr-calculator-further-reading.jpg)
 
 There are dedicated chapters on [preparing for your ILR application]({% post_url en-gb/2020-08-07-prepare-for-ilr %}) as well as the [ILR requirements]({% post_url en-gb/2020-08-08-ilr-requirements %}).
