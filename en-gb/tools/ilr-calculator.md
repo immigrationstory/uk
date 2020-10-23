@@ -5,9 +5,15 @@ theme: /public/css/immigrationstory-20200831.css
 comments: true
 ---
 
-Use this tool to calculate when the earliest date is you can apply for an ILR.
+Use this tool to calculate when the earliest date is you can apply for an Indefinite Leave to Remain. 
 
-You will need to know a number of things:
+* Table of Contents
+{:toc}
+
+## Before using the calculator...
+![](/assets/ilr-calculator-understand-rules.jpg)
+
+For this to provide you your eligibility date correctly, you will need to know a number of things:
 
 * What ILR route you are applying for, and what the detailed requirements are for your route
 * Most routes require you to have spent a continuous period of five years in the UK; are you in this route, or is it different -- see the section "Categories where the continuous
@@ -30,13 +36,17 @@ The second point above is very important as there are multiple ILR routes that y
 * The ILR route for partners of British Citizens or those already settled in the UK only counts the grants of leave where you had a Family Visa as a partner or a spouse
 * The ILR route for people on a Tier 2 (General) visa only counts the grants of leave where they were on that visa, or a short list of other work-related visas
 
+I personally know many people who have made this mistake. Be careful if you find yourself in a situation where you are changing between visa types!
+{: .tip }
+
 If a person then started on a Tier 2 (General) visa and stayed there for four years, and then switched to a Family Visa (say, because they married a British citizen, and they have resigned from their work with their original Tier 2 sponsor), then what happens is that:
 
 * The four years they have spent in the UK under the Tier 2 (General) visa will not count towards the ILR route for partners of British citizens
 * The ILR clock resets and starts from zero from the moment they switch their Tier 2 (General) visa to a Family Visa
 * The person is no longer eligible to get on the ILR route for people on a Tier 2 (General) visa as they are no longer on that visa
 
-## Questionnaire
+## Calculator: Questionnaire
+![](/assets/ilr-calculator.jpg)
 
 <form id="ilr-calculator">
   <div class="field">
@@ -74,7 +84,7 @@ If a person then started on a Tier 2 (General) visa and stayed there for four ye
   <button class="button is-primary">Calculate</button>
 </form>
 
-## Results
+### Results
 
 <ul id="ilr-calculator-observations"><li>Click "Calculate" to view results.</li></ul>
 
@@ -160,6 +170,8 @@ If a person then started on a Tier 2 (General) visa and stayed there for four ye
 </script>
 
 ## Further Reading
+![](/assets/ilr-calculator-further-reading.jpg)
+
 There are dedicated chapters on [preparing for your ILR application]({% post_url en-gb/2020-08-07-prepare-for-ilr %}) as well as the [ILR requirements]({% post_url en-gb/2020-08-08-ilr-requirements %}).
 
 Alternatively, a list of all chapters can be found at the [table of contents]({% link en-gb/table-of-contents.md %}) where you'll find detailed guides on not just applying for Indefinite Leave to Remain, but also other topics such as the process for Tier 2 (General), moving to the UK, living in the UK, and others.
