@@ -49,6 +49,7 @@ If a person then started on a Tier 2 (General) visa and stayed there for four ye
 ![](/assets/ilr-calculator.jpg)
 
 <form id="ilr-calculator">
+  <div class="box">
   <div class="field">
     <label class="label">What is the length of the continuous period of residence required for the ILR route you are applying for?</label>
     <div class="control">
@@ -81,7 +82,12 @@ If a person then started on a Tier 2 (General) visa and stayed there for four ye
       <input class="input" type="date" name="current-visa-end-date" required>
     </div>
   </div>
-  <button class="button is-primary">Calculate</button>
+  </div>
+  <div class="field">
+    <div class="control">
+      <button class="button is-primary is-fullwidth">Calculate</button>
+    </div>
+  </div>
 </form>
 
 ### Results
