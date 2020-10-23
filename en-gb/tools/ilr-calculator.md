@@ -3,6 +3,7 @@ layout: page
 title: ILR Calculator
 theme: /public/css/immigrationstory-20200831.css
 comments: true
+categories: tools
 ---
 
 Use this tool to calculate when the earliest date is you can apply for an Indefinite Leave to Remain. 
