@@ -2,7 +2,7 @@
 layout: post
 title: Prepare to apply for Indefinite Leave to Remain (ILR)
 compact-title: Prepare for ILR
-updated: 2020-10-04
+updated: 2020-11-06
 comments: true
 ---
 
@@ -49,7 +49,7 @@ After entering your details, the calculator will inform you when is the earliest
 
 In our case, my and my spouse's original Tier 2 visa was issued on 25/05/2015.
 
-I've entered the UK on 11/06/2015, which is 17 days after my visa was issued. As it does not exceed 180 days, these 17 days are counted as an allowable absence, meaning my ILR clock can still start on 11/06/2015. If I hypothetically entered the UK more than 180 days after my visa was issued, then the clock will instead start on when I physically entered the country.
+I've entered the UK on 11/06/2015, which is 17 days after my visa was issued. As it does not exceed 180 days, these 17 days are counted as an allowable absence, meaning my ILR clock can still start on 25/05/2015. If I hypothetically entered the UK more than 180 days after my visa was issued, then the clock will instead start on when I physically entered the country.
 
 This start date is the "qualifying period start date" for my ILR application.
 
@@ -79,3 +79,5 @@ Given this, and the fact that we felt our application was straightforward, we we
 Applying for and being granted a UK ILR is a significant milestone in your and your family's immigration journey. It is absolutely critical you allow yourself sufficient time to prepare for your application seeing its importance, the tight window of opportunity you are provided, and the substantial costs involved.
 
 {% include_relative general-disclaimer.md class='disclaimer' %}
+
+Big thank you to Vinothraj Jagadeesan for pointing out that one of dates around the ILR clock need adjusting.
