@@ -3,6 +3,7 @@ layout: post
 title: Requirements for a Tier 2 (General) visa
 compact-title: Tier 2 requirements
 updated: 2020-08-15
+last_modified_at: 2020-08-15
 comments: true
 ---
 
