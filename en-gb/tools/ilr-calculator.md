@@ -6,7 +6,7 @@ comments: true
 categories: tools
 ---
 
-Use this tool to calculate when is the earliest date you can apply for Indefinite Leave to Remain. 
+Use this tool to calculate when is the earliest date you can apply for Indefinite Leave to Remain, given your continuous qualifying period and the 28-day rule.
 
 * Table of Contents
 {:toc}
@@ -14,7 +14,15 @@ Use this tool to calculate when is the earliest date you can apply for Indefinit
 ## Before using the calculator...
 ![](/assets/ilr-calculator-understand-rules.jpg)
 
-For this to provide you your eligibility date correctly, you will need to know a number of things:
+Note that the [official government guidance](https://www.gov.uk/government/publications/indefinite-leave-to-remain-calculating-continuous-period-in-uk) refers to this period in a number of similar but slightly different ways. For the purposes of your ILR application, all of these mean the same thing:
+
+* Qualifying period
+* Continuous period
+* Continuous qualifying period
+* Continuous lawful period
+* Continuous residence period
+
+So that this calculator can provide you your eligibility date correctly, you will need to know a number of things:
 
 * What ILR route you are applying for, and what the detailed requirements are for your route
 * Most routes require you to have spent a continuous period of five years in the UK; are you in this route, or is it different -- see the section "Categories where the continuous

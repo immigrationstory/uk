@@ -63,7 +63,15 @@ Much like other routes, the Tier 2 (General) ILR route requires a qualifying per
 
 My 5-year qualifying period then is from 25/05/2015 to 24/05/2020.
 
-As per the [rules](https://www.gov.uk/government/publications/indefinite-leave-to-remain-calculating-continuous-period-in-uk) one can apply for ILR up to 28 days before the qualifying period end date. Counting backwards 28 days from 24/05/2020 gives us 26/04/2020, which is the earliest date I can apply for an ILR.
+Note that the [official government guidance](https://www.gov.uk/government/publications/indefinite-leave-to-remain-calculating-continuous-period-in-uk) refers to this period in a number of similar but slightly different ways. For the purposes of your ILR application, all of these mean the same thing:
+
+* Qualifying period
+* Continuous period
+* Continuous qualifying period
+* Continuous lawful period
+* Continuous residence period
+
+In accordance with the [rules](https://www.gov.uk/government/publications/indefinite-leave-to-remain-calculating-continuous-period-in-uk), one can apply for ILR up to 28 days before the qualifying period end date. Counting backwards 28 days from 24/05/2020 gives us 26/04/2020, which is the earliest date I can apply for an ILR.
 
 My spouse entered the UK slightly later than me on 24/07/2015, which is 60 days after our visa was issued. This does not exceed 180 days, thus their qualifying period start date is the same as mine. This is good as it means that we will be able to apply for the ILR together.
 
